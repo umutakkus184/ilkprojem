@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ body{
     background: url(images/introBg.jpg) center center/cover;
 }
 header{
+    
     grid-area: header;
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,7 @@ main > .intro{
 main > .kutu{
     background-color: white;
     display: flex;
+    gap: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -52,15 +55,16 @@ main > .kutu{
     min-height: 60rem;
     height: auto;
     margin: 2rem;
-    
+    font-family: 'Anton', sans-serif;
+
 }
 .kutu > img{
     width: 80%;
 
     
 }
-.kutu > img {
-    width:80% ;
+.kutu > ul {
+   list-style: none;
 }
 
 footer{
@@ -92,6 +96,10 @@ header > nav > ul li {
 header > nav > ul li a{
     display: block;
     
+
+}
+a{
+ border-left:2px;
 
 }
  
